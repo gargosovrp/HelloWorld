@@ -18,8 +18,8 @@ public class PhraseOMatic {
         int rand3 = (int) (Math.random() * threeLength);
         int rand4 = (int) (Math.random() * fourLength);
 
-        String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3] + " " + wordListFour;
+        String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3] + " " + wordListFour[rand4];
 
-        System.out.println (" Всё, что нам нужно, - это " + phrase);
+        System.out.println ("Товарищи! " + phrase);
     }
 }
